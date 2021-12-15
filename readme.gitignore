@@ -1,0 +1,9 @@
+Hello. To run food engine, you must download XAMPP and run a local apache web server along with a database.
+Create a database called foodengine_capstone.
+
+Update the connection details to the database inside class/class.database.php if needed.
+
+Open the file database_creation.txt and execute the given queries necessary for our database.
+
+You will be able to access public_html to access the site. Keep file structure as it is setup, backend and frontend is at a upper level directory for security purposes.
+

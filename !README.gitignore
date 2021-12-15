@@ -1,0 +1,10 @@
+Hello. To run food engine, you must download XAMPP and run a local apache web server along with a database.
+Create a database called foodengine_capstone.
+
+Update the connection details to the database inside class/class.database.php if needed.
+
+Open the file database_creation.txt and execute the given queries necessary for our database.
+
+For payment, edit the 'business' index of the $data arrray inside backend/status.php with your business email. Must be a real paypal business email to access the IPN.
+Update the $urlPage with either localhost or the domain where this project is hosted within that same file (backend/status.php).
+
